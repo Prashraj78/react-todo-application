@@ -11,6 +11,14 @@ import { Toaster } from 'react-hot-toast';
 function App() {
 
 
+  const style = {
+    justifyContent: "center",
+    textAlign: 'center',
+    fontSize: '18px',
+    marginTop : "15px"
+  }
+
+
   return (
     <>
 
@@ -31,6 +39,9 @@ function App() {
             fontSize: "1.4rem"
           }
         }} />
+        <footer style={style}>
+          <p>All Rights Reserved &copy; {new Date().getFullYear()} @Prashant_Patil</p>
+      </footer>
     </>
   )
 }
